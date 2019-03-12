@@ -6,5 +6,6 @@
 <body>
 	<h2>heelllo</h2>
 	<p>done dona done</p>
+	<a href="/index.php">home</a>
 </body>
 </html>
