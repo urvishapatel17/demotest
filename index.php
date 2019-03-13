@@ -9,8 +9,12 @@
 <body>
 	<nav>
 		<a href="<?php echo $actual_link; ?>">home</a>
-		<a href="<?php echo $actual_link; ?>/test.php" target="_blank">testpage</a>
-
+		<a href="<?php echo $actual_link; ?>test.php" target="_blank">testpage</a>
 	</nav>
+	<form method="get" action="<?php echo $actual_link; ?>test.php">
+		<input type="text" name="fname" placeholder="enter your first name">
+		<input type="text" name="lname" placeholder="enter your last name">
+		<input type="submit" name="save data" value="SUBMIT">
+	</form>
 </body>
 </html>
