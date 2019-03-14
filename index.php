@@ -10,6 +10,7 @@
 	<nav>
 		<a href="<?php echo $actual_link; ?>">home</a>
 		<a href="<?php echo $actual_link; ?>test.php" target="_blank">testpage</a>
+		<a href="<?php echo $actual_link; ?>">inquiry</a>
 	</nav>
 	<form method="get" action="<?php echo $actual_link; ?>test.php">
 		<input type="text" name="fname" placeholder="enter your first name">
